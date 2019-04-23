@@ -16,3 +16,7 @@ function tailsNeverFails () {
     return `You got ${tails} tails in a row!`;
 }
 
+// iter    Iterate (for each..in)
+// itin    Iterate (for..in)
+// itar    Iterate elements of array
+// ritar   Iterate elements of array in reverse order
