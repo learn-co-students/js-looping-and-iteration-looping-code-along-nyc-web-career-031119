@@ -7,13 +7,12 @@ function printBadges(arr) {
 }
 
 function tailsNeverFails () {
-    let tails = 0;
-
+    let count = 0;
     while (Math.random() >= 0.5) {
-        tails++;
+        count++;
     }
 
-    return `You got ${tails} tails in a row!`;
+    return `You got ${count} tails in a row!`;
 }
 
 // iter    Iterate (for each..in)
